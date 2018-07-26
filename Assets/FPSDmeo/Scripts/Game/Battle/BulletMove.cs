@@ -16,7 +16,6 @@ public class BulletMove : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("打到墙上了");
         Destroy(gameObject);
     }
 }
